@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #007bff;
+  --font-size-large: 1.5rem;
+  --spacing: 1rem;
+}
+
+.element {
+  color: var(--primary-color);
+  font-size: var(--font-size-large);
+  margin: var(--spacing);
+}
+
+.blend-mode {
+  background: url('your-image.jpg');
+  background-blend-mode: multiply;
+}
+
+.gradient-background {
+  background: linear-gradient(45deg, #ff5733, #ffcc33);
+}
+
+.pattern-background {
+  background: url('pattern.png');
+}
+
+<i class="fa fa-heart"></i>
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
